@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cinemovies</title>
+  <link rel="stylesheet" href="library/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="cabecalho">
+    <div class="navbar navbar-expand-md">
+      <div class="container mt-2 mb-2">
+        <h3>Cinemovies</h3>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="collapse navbar-collapse justify-content-end" id="menu">
+          <ul class="nav nav-pills navbar-nav">
+            <li class="nav-item">
+              <a href="#inicio" class="nav-link active">Início</a>
+            </li>
+            <li class="nav-item">
+              <a href="#filmes" class="nav-link">Filmes</a>
+            </li>
+            <li class="nav-item">
+              <a href="#filmes" class="nav-link">Ingressos</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div id="carousel-exemplo" class="carousel carousel-fade slide mt-2" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div data-bs-interval="3000" data-bs-interval="2000" class="carousel-item active">
+          <img class="d-block" src="https://cinebreak.com.br/wp-content/uploads/2023/10/Totally-Killer-Dezesseis-Facadas-com-Kiernan-Shipka-comedia-de-terror-com-viagem-no-tempo-Prime-Video.jpg" alt="">
+        </div>
+
+        <div data-bs-interval="3000" class="carousel-item">
+          <img class="d-block" src="https://nextbestpicture.com/wp-content/uploads/2023/08/Bottoms-Poster.jpg" alt="">
+        </div>
+
+        <div data-bs-interval="3000" class="carousel-item">
+          <img class="d-block" src="https://www.barbie-themovie.net/images/share.jpg" alt="">
+        </div>
+
+      </div>
+
+      <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+      <div class="carousel-indicators">
+        <button class="active" type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="0"></button>
+        <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+      </div>
+
+    </div>
+  </div>
+
+  <!--Cards-->
+  <div class="container mt-5" id="filmes">
+    <h2 class="mb-4">Filmes em cartaz</h2>
+    <div class="row">
+        <!--Card1-->
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <article class="card">
+                <header class="card-header">
+                    Em breve 
+                </header>
+                <img src="https://via.placeholder.com/300x300" alt="#">
+                <div class="card-body">
+                    <h4 class="card-title">Bottons</h4>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, in.</p>
+                    <a href="" class="btn btn-primary">Saiba mais</a>
+                </div>
+            </article>
+        </div>
+
+
+        <!--Card2-->
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <article class="card">
+                <header class="card-header">
+                    Veja hoje
+                </header>
+                <img src="https://via.placeholder.com/300x300" alt="#">
+                <div class="card-body">
+                    <h4 class="card-title">Barbie</h4>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, inventore.</p>
+                    <a href="" class="btn btn-primary">Saiba mais</a>
+                </div>
+            </article>
+        </div>
+
+
+        <!--Card3-->
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <article class="card">
+                <header class="card-header">
+                    Veja hoje
+                </header>
+                <img src="https://via.placeholder.com/300x300" alt="#">
+                <div class="card-body">
+                    <h4 class="card-title">Totally Killer</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, nisi.</p>
+                    <a href="" class="btn btn-primary">Saiba mais</a>
+                </div>
+            </article>
+        </div>
+
+
+  <script src="/library/bootstrap.bundle.min.js"></script>
+</body>
+</html>

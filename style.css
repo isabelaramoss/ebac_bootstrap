@@ -1,0 +1,52 @@
+:root{
+  --color-black: #1e1e1e;
+  --color-black-2: #202020;
+  --color-white: #fff;
+  --color-orange: #FF650F;
+  --color-orange-hover: #b4490c;
+}
+
+header{
+  background-color: var(--color-black);
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+body{
+  background-color:var(--color-black-2);
+  color: var(--color-white);
+}
+
+.nav-pills{
+  --bs-nav-pills-link-active-bg: var(--color-orange);
+}
+
+.nav-link{
+  color: var(--color-white);
+}
+
+
+.carousel-item{
+  max-width: 110rem;
+  max-height: 25rem;
+}
+
+.btn-primary{
+  background-color: var(--color-orange);
+  border: none;
+}
+
+.btn-primary:hover{
+  background-color: var(--color-orange-hover);
+  border: none;
+}
+
+.col-sm-12, .col-md-6, .col-lg-4{
+  margin-bottom: 2rem;
+}
+
+.nav-link{
+  margin-left: .6rem;
+}
+
