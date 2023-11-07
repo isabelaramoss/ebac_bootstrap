@@ -50,3 +50,12 @@ body{
   margin-left: .6rem;
 }
 
+.navbar-toggler{
+  background-color: var(--color-orange);
+}
+
+.navbar-toggler:hover{
+
+  background-color: var(--color-orange-hover);
+
+}
